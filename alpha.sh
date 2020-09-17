@@ -16,7 +16,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 }
 
 menu() {
-printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m    
+printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m\n"    
 
 
 
